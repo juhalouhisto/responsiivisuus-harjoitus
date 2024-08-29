@@ -55,3 +55,28 @@ div#content section {
 div#content aside {
     width: 20vw;
 }
+
+article {
+    flex: 33.33%;
+}
+
+article div {
+    margin: var(--general-margin);
+    border: 1px solid var(--grey-foreground-color); 
+}
+
+article h3 {
+    margin: var(--general-margin);
+}
+
+article p {
+    margin: var(--general-margin);
+    line-height: 1.5;
+}
+
+article div img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
